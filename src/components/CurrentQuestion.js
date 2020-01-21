@@ -16,24 +16,24 @@ export const CurrentQuestion = () => {
 
   return (
     <>
-    {!quizEnd && quizStarted && (
-    <div className="currentQuestion">
-      <div className="currentQuestionHeader">
-        <h1>Question: {question.questionText}</h1>
-      </div>
-      <div className="currentQuestionAnswer">
-        <Answers question={question} />
-      </div>
-      <div className="currentQuestionNextButton">
-        <NextButton />
-      </div>
-      <div className="currentQuestionProgressBarWrapper">
-        <ProgressBarContainer />
-      </div>
-    </div>
-)
-}
-</>
+      {!quizEnd && quizStarted && (
+        <div className="currentQuestion">
+          <div className="currentQuestionHeader">
+            <h1>Question: {question.questionText}</h1>
+          </div>
+          <div className="currentQuestionAnswer">
+            <Answers question={question} />
+          </div>
+          <div className="currentQuestionNextButton">
+            <NextButton />
+          </div>
+          <div className="currentQuestionProgressBarWrapper">
+            <ProgressBarContainer />
+          </div>
+        </div>
+      )
+      }
+    </>
   )
 }
 
