@@ -2,11 +2,11 @@ import { createSlice } from '@reduxjs/toolkit'
 
 // Change these to your own questions!
 const questions = [
-  { id: 1, questionText: 'What is the capital city of North Macedonia?', options: ['Stockholm', 'Skopje', 'Sofia', 'San Marino'], correctAnswerIndex: 1 },
-  { id: 2, questionText: 'What is the capital city of Hungary?', options: ['Bern', 'Bukarest', 'Budapest', 'Berlin'], correctAnswerIndex: 2 },
-  { id: 3, questionText: 'What is the capital city of Albania?', options: ['Tirana', 'Trieste', 'Tallin', 'Tel Aviv'], correctAnswerIndex: 0 },
-  { id: 4, questionText: 'What is the capital city of Ukraina?', options: ['Kiev', 'Krakow', 'Kalmar', 'Köpenhamn'], correctAnswerIndex: 0 },
-  { id: 5, questionText: 'What is the capital city of Lithuania?', options: ['Valetta', 'Vaduz', 'Vienna', 'Vilnius'], correctAnswerIndex: 3 }
+  { id: 1, questionText: 'North Macedonia', options: ['Stockholm', 'Skopje', 'Sofia', 'San Marino'], correctAnswerIndex: 1 },
+  { id: 2, questionText: 'Hungary', options: ['Bern', 'Bukarest', 'Budapest', 'Berlin'], correctAnswerIndex: 2 },
+  { id: 3, questionText: 'Albania', options: ['Tirana', 'Trieste', 'Tallin', 'Tel Aviv'], correctAnswerIndex: 0 },
+  { id: 4, questionText: 'Ukraine', options: ['Kiev', 'Krakow', 'Kalmar', 'Köpenhamn'], correctAnswerIndex: 0 },
+  { id: 5, questionText: 'Lithuania', options: ['Valetta', 'Vaduz', 'Vienna', 'Vilnius'], correctAnswerIndex: 3 }
 
 ]
 

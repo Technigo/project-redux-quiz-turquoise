@@ -19,7 +19,7 @@ export const CurrentQuestion = () => {
       {!quizEnd && quizStarted && (
         <div className="currentQuestion">
           <div className="currentQuestionHeader">
-            <h1>Question: {question.questionText}</h1>
+            <h1>Question: What is the capital city of {question.questionText}?</h1>
           </div>
           <div className="currentQuestionAnswer">
             <Answers question={question} />
